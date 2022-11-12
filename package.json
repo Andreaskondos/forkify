@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ledgic",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "fracty": "^1.0.11"
+  }
+}
